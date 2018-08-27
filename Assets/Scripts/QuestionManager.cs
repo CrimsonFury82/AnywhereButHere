@@ -80,7 +80,7 @@ public class QuestionManager : MonoBehaviour {
     private void UpdateUI()
     {
         // Question Text.
-        _questionNumberText.text = "Question " + (_selectedQuestionIndex + 1) + " of " + _questionAmount;
+        _questionNumberText.text = "Page " + (_selectedQuestionIndex + 1) + " of " + _questionAmount;
         _questionText.text = _selectedQuestion._questionName;
 
         // Answers.

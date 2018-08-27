@@ -145,10 +145,10 @@ RectTransform:
   m_Father: {fileID: 1043871449}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 20}
-  m_SizeDelta: {x: 256, y: 64}
+  m_AnchorMin: {x: 0.4022187, y: 0.030649906}
+  m_AnchorMax: {x: 0.601, y: 0.11743328}
+  m_AnchoredPosition: {x: -2, y: -2}
+  m_SizeDelta: {x: 2, y: 2}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &5954738
 MonoBehaviour:
@@ -265,7 +265,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &31346692
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,10 +373,10 @@ RectTransform:
   m_Father: {fileID: 1043871449}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 100, y: 0}
-  m_SizeDelta: {x: 580, y: 500}
+  m_AnchorMin: {x: 0.35065603, y: 0.15078336}
+  m_AnchorMax: {x: 0.805344, y: 0.8495668}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -2, y: -2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &99036322
 MonoBehaviour:
@@ -586,10 +586,10 @@ RectTransform:
   m_Father: {fileID: 1043871449}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchorMin: {x: 0, y: 0.89000005}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 80}
+  m_SizeDelta: {x: 0, y: 1}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &370523692
 MonoBehaviour:
@@ -639,6 +639,10 @@ RectTransform:
   - {fileID: 1367735406}
   - {fileID: 615863803}
   - {fileID: 1001951277}
+  - {fileID: 1527996342}
+  - {fileID: 1508461258}
+  - {fileID: 1027732620}
+  - {fileID: 1347646489}
   m_Father: {fileID: 665158300}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -933,10 +937,10 @@ RectTransform:
   m_Father: {fileID: 31346695}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 50, y: 0}
-  m_SizeDelta: {x: 333.33, y: 682.6599}
+  m_AnchorMin: {x: 0.040656254, y: 0.293}
+  m_AnchorMax: {x: 0.27221876, y: 0.7083889}
+  m_AnchoredPosition: {x: -2, y: -0.5}
+  m_SizeDelta: {x: 4, y: 1}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &740894155
 MonoBehaviour:
@@ -1004,70 +1008,23 @@ MonoBehaviour:
   _resultsText: {fileID: 99036322}
   resultsImage: {fileID: 740894155}
   _availableStats:
-  - statName: Runner
+  - statName: Kind
     statValue: 0
-    statResultTxt: "Neo Runner: In a world where information is golden and everything
-      can be hacked, you are one of the defences against invasion of privacy and information.
-      You act similar to a courier, transporting packages from one location to another
-      through physical means. Haven is yours to traverse through any route you wish.
-      Running is your specialty whether it be jumping building to building, using
-      normally untraversable shortcuts to your advantage or simply going in through
-      the front door. As long as you reach your destination with your package in tact,
-      you\u2019ve guaranteed yourself several grand. But let\u2019s be honest, things
-      don\u2019t always go according to plan. Sometimes you\u2019re hunted for all
-      you have, which leads you to dodge a lot more gunfire then you\u2019d like.
-      And when things get real tight, dispatching your pursuers is a common occurrence
-      regardless of their affiliation.   This job is not for the faint of heart and
-      more for the swift of feet and itchiness of trigger fingers. Whatever job you
-      take, know every exit, and every shortcut. Prepare yourself for any and all
-      situations that may come your way. Haven is your playground, and frankly, you
-      wouldn't have it any other way.  Signature skills: Navigation, Parkour, Flexibility."
-    resultsSprite: {fileID: 0}
-  - statName: Broker
+    statResultTxt: "Crimson goes over to the draw and grabs the bottle of pills. He
+      throws them in the bin. He\u2019s not going to give up that easily. Later that
+      evening Meg comes home. Crimson is sitting watching TV in the lounge.  Crimson
+      \u201CHi. I\u2019m sorry I was so despondent early. I really am happy that you\u2019re
+      doing well.\u201D Meg: \u201CIt\u2019s ok. I still love you.\u201D Meg gives
+      Crimson a hug [To be continued.....]"
+    resultsSprite: {fileID: 21300000, guid: 5ef2689086c93ee418a6ed783ced128b, type: 3}
+  - statName: UnKind
     statValue: 0
-    statResultTxt: 'Shadow Broker: Everyone has skeletons in their closets. Some may
-      have embezzled from large companies, participated in human trafficking or maybe
-      even the covering up of a mass genocide. Either way someone is willing to drag
-      those skeletons out of said closet, for a certain price. You specialise in the
-      procurement of information and more often than not, sell that information for
-      a steady sum of credits depending on how detrimental the information is. The
-      poaching of secrets is a hard trade to live by which often leads you to reach
-      out and hack into company servers, gather information from your underworld associates
-      and even investigations of crimes provided you are given the right incentive.
-      Espionage and Secrets are your friends, using this to build your information
-      network is tantamount to your success. More often than not the right words can
-      make all the difference in a situation. Anyone can be your customer under the
-      right circumstances. Signature skills: Intel Gathering, Hacking, Network Contact
-      and Blackmail.'
-    resultsSprite: {fileID: 0}
-  - statName: Mercenary
-    statValue: 0
-    statResultTxt: "Mercenary Enforcer: You are gun for hire. You take on all kinds
-      of jobs: Security guard missions protecting a business premises, personal bodyguards
-      for executives, politicians and gang leaders. Even the occasional assassination
-      job. You go into criminal districts the cops wouldn\u2019t dare to venture.
-      Heavy firepower and prosthetic augmentations are your tools of choice. Enforcers
-      aren\u2019t exactly know for their subtle approach. Nobody wants to go head-to-head
-      with an enforcer if they can avoid it, not even the police. You get the job
-      done through an arsenal of gear, ruthlessness and brute force. Signature skills:
-      Military training including: Hand-to-hand combat, Firearms specialisation and
-      Explosive expertise."
-    resultsSprite: {fileID: 0}
-  - statName: Politician
-    statValue: 0
-    statResultTxt: "Corporate Politician: Business is business, those are the words
-      you live by. The 1% run Haven and it just so happens you\u2019re one of them.
-      From humble beginnings you have built yourself up from nothing. In your world,
-      nobody ever plays fair and everyone wants what you have, and they\u2019ll do
-      anything to get it. You\u2019ve lost count of how many times you\u2019ve been
-      targeted by your rivals. You\u2019re not that innocent yourself as you are more
-      than ready to deal with the underworld partners and illegal trade to garnour
-      your fortune and put yourself ahead of the rest. The world is a harsh place
-      and you\u2019ve learnt to seize your opportunities through any means necessary
-      in an attempt to breach to the top of the economic highlife of fast cars and
-      large mansions. Business is money and money makes the world go round. Signature
-      skills: Political Intrigue, Bribery and Economical Sabotage."
-    resultsSprite: {fileID: 0}
+    statResultTxt: Crimson goes over to the draw and grabs the bottle of pills. He
+      pours a large pile into his hand and tips them all down his throat and swallows
+      them. He flops down on the couch and falls asleep. Later that evening Meg comes
+      home and finds Crimson unconscious convulsing on the couch and frothing at mouth.
+      She calls an ambulance. [To be continued.....]
+    resultsSprite: {fileID: 21300000, guid: 0261b2409874009429a76f81fa597c18, type: 3}
 --- !u!4 &780496464
 Transform:
   m_ObjectHideFlags: 0
@@ -1141,10 +1098,10 @@ RectTransform:
   m_Father: {fileID: 480279169}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.05, y: 0.2}
-  m_AnchorMax: {x: 0.95, y: 0.55}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 140}
+  m_AnchorMin: {x: 0.013437353, y: 0.23078337}
+  m_AnchorMax: {x: 0.27978134, y: 0.57378346}
+  m_AnchoredPosition: {x: 0.4000244, y: 1.699997}
+  m_SizeDelta: {x: 0.9000244, y: -2}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1001951278
 MonoBehaviour:
@@ -1201,6 +1158,75 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1001951276}
+  m_CullTransparentMesh: 0
+--- !u!1 &1027732619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1027732620}
+  - component: {fileID: 1027732622}
+  - component: {fileID: 1027732621}
+  m_Layer: 5
+  m_Name: Character2Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1027732620
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1027732619}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 480279169}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5891252, y: 0.11956673}
+  m_AnchorMax: {x: 0.7091252, y: 0.4233917}
+  m_AnchoredPosition: {x: -0.5, y: -0.5}
+  m_SizeDelta: {x: 2, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1027732621
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1027732619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 70b6a6a0d012e764fbbfa1293262e7d0, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1027732622
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1027732619}
   m_CullTransparentMesh: 0
 --- !u!1 &1043871448
 GameObject:
@@ -1359,6 +1385,76 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1347646488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1347646489}
+  - component: {fileID: 1347646491}
+  - component: {fileID: 1347646490}
+  m_Layer: 5
+  m_Name: ChoiceBackground
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1347646489
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1347646488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1782599900}
+  m_Father: {fileID: 480279169}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.013437353, y: 0.58352524}
+  m_AnchorMax: {x: 0.27978134, y: 0.6711752}
+  m_AnchoredPosition: {x: 1.1600342, y: -0.8569946}
+  m_SizeDelta: {x: -0.2000122, y: -2.0999756}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1347646490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1347646488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9339297, g: 1, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1347646491
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1347646488}
+  m_CullTransparentMesh: 0
 --- !u!1 &1359905933
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,10 +1485,10 @@ RectTransform:
   m_Father: {fileID: 480279169}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.05, y: 0.6}
-  m_AnchorMax: {x: 0.95, y: 0.8}
-  m_AnchoredPosition: {x: 0, y: 37.5}
-  m_SizeDelta: {x: 0, y: 75}
+  m_AnchorMin: {x: 0.05156265, y: 0.6711752}
+  m_AnchorMax: {x: 0.95, y: 0.8573918}
+  m_AnchoredPosition: {x: -1, y: -0.6890106}
+  m_SizeDelta: {x: 2, y: -0.12200165}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1359905935
 MonoBehaviour:
@@ -1466,10 +1562,10 @@ RectTransform:
   m_Father: {fileID: 480279169}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 5}
-  m_SizeDelta: {x: 256, y: 64}
+  m_AnchorMin: {x: 0.39987472, y: 0.007}
+  m_AnchorMax: {x: 0.60034394, y: 0.09622533}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0}
 --- !u!114 &1367735407
 MonoBehaviour:
@@ -1644,6 +1740,144 @@ CanvasRenderer:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1471823939}
   m_CullTransparentMesh: 0
+--- !u!1 &1508461257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1508461258}
+  - component: {fileID: 1508461260}
+  - component: {fileID: 1508461259}
+  m_Layer: 5
+  m_Name: Character1Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1508461258
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508461257}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 480279169}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.34056267, y: 0.11956673}
+  m_AnchorMax: {x: 0.46078134, y: 0.4233917}
+  m_AnchoredPosition: {x: 0, y: -0.5}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1508461259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508461257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: 2c6dceb9394910a44acf45ea067e0ca9, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1508461260
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1508461257}
+  m_CullTransparentMesh: 0
+--- !u!1 &1527996341
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1527996342}
+  - component: {fileID: 1527996344}
+  - component: {fileID: 1527996343}
+  m_Layer: 5
+  m_Name: BackgroundImage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1527996342
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1527996341}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 480279169}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.2872187, y: 0.11539169}
+  m_AnchorMax: {x: 0.8375626, y: 0.6711752}
+  m_AnchoredPosition: {x: -0.5, y: 0.5}
+  m_SizeDelta: {x: 1, y: -3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1527996343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1527996341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_Sprite: {fileID: 21300000, guid: fd997133086a6e741855e5bcab67f5a1, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+--- !u!222 &1527996344
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1527996341}
+  m_CullTransparentMesh: 0
 --- !u!1 &1706605219
 GameObject:
   m_ObjectHideFlags: 0
@@ -1718,6 +1952,81 @@ CanvasRenderer:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1706605219}
+  m_CullTransparentMesh: 0
+--- !u!1 &1782599899
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1782599900}
+  - component: {fileID: 1782599902}
+  - component: {fileID: 1782599901}
+  m_Layer: 5
+  m_Name: ChoiceText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1782599900
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1782599899}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1347646489}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1782599901
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1782599899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
+      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 30
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
+    m_LineSpacing: 1
+  m_Text: 'Make a choice:'
+--- !u!222 &1782599902
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1782599899}
   m_CullTransparentMesh: 0
 --- !u!1 &1836926009
 GameObject:
@@ -1861,7 +2170,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Question X of X
+  m_Text: Page X of X
 --- !u!222 &1943460921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2006,329 +2315,87 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _questions:
-  - _questionName: 'Growing up in Haven was never easy and finding a job was more
-      problematic than it seemed. Recently you''ve been noticing stolen goods from
-      your workplace more often than not and your boss is holding you responsible
-      unless the culprit is found, unfair but what can you do? The next evening you
-      hear rumbling nearby and discover the thief, a small child augmented with prosthetic
-      legs. The boy reaches in his hoodie and pulls out dainty pistol and thrusts
-      it into your direction. Make a choice:'
+  - _questionName: "Crimson stared at the bottle of pills in front of him. \u201CI
+      should just do it\u201D he thought. \u201CNobody would miss me. They\u2019re
+      better off...\u201D before he had time to finish the thought, he was startled
+      by the sound of a key in the front door. Crimson quickly shoved the bottle of
+      pills into a draw.  \u201CHey I\u2019m back\u201D Meg called as she walked through
+      the front door. \u201CHi\u201D Crimson replied timidly. \u201CWhat\u2019s wrong?\u201D
+      she asked.  \u201CNothing\u201D Crimson stared down at the floor. \u201CWhy
+      the glum look then?\u201D  \u201COh I\u2019m just bored\u201D Crimson lied "
     _answers:
-    - _answerTxt: 'Let the boy escape: He may be scared but one false move could render
-        your life over. No amount of money is worth giving your life for a shitty
-        job.'
+    - _answerTxt: "[Hug Crimson] \u201CI\u2019ve missed you\u201D."
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - _answerTxt: 'Attempt to convince him to lower his weapon and stop stealing here
-        if he values his life: You were never one to play the good guy but this kid
-        seems to have taken the same road you did, and frankly you know where he''s
-        heading if he doesn''t un-fuck his whole situation. Who knows, he might even
-        take your advice to heart.'
+    - _answerTxt: "\u201COk don\u2019t tell me then\u201D Meg let out a sigh of exasperation"
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - _answerTxt: 'Attempt to disarm the boy, knock him out and turn him in: The boy
-        seem too scared to actually pull the trigger. You were lucky enough to even
-        get a job and you''re unlikely to find another one. You need to protect your
-        livelihood.'
-      _statEffects:
-      - index: 2
-        valueToAdd: 5
-    - _answerTxt: "Let the boy take the goods, call the authorities after he leaves:
-        Keeping your job is your first and foremost priority and this is all you can
-        do without the risk of catching a bullet. Risks are for chumps and you\u2019re
-        planning to live a long life."
-      _statEffects:
-      - index: 3
-        valueToAdd: 5
-  - _questionName: 'Recently you have been saving up your miscellaneous credits to
-      afford yourself a specialised augmentation. You make your way down to your local
-      Valen-Corp building and browse through the catalogue. Checking out the options
-      available, you find that the choices are endless but you only have enough credits
-      to afford a single upgrade. Make a choice:'
+  - _questionName: "\u201CHow was uni today?\u201D Crimson asked, hoping to change
+      the topic. \u201CGood. I got 100% on my exam from last week\u201D  \u201CThat\u2019s
+      awesome. I\u2019m so proud of you\u201D Crimson smiled \u201CThanks. I\u2019m
+      having a celebration drink at the pub soon with a few friends from uni. Do you
+      want to come?\u201D \u201CI don\u2019t feel like going out tonight\u201D "
     _answers:
-    - _answerTxt: 'Aegis-9 Prosthetics: A pair of Dual Heavy shock-absorbing legs
-        that are commonly used by those who wish to reach new speeds and heights and
-        still survive the fall in the aftermath. Used mostly by those that wish to
-        be the prime example of agility and adaptability to any terrain.'
+    - _answerTxt: " \u201COh come on. You\u2019ve been stuck in the house on your
+        own for weeks. You\u2019ll feel better if you come out.\u201D "
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - _answerTxt: 'Holo-Jack: Able to directly transfer your conscious into the subsystems
-        of any technology, allowing a personal stream of information to transfer into
-        your head. Good for those placing high priority on information gathering or
-        the control of machines.'
+    - _answerTxt: "\u201CCan\u2019t you just be happy for me for once?\u201D "
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - _answerTxt: 'C-5 Taurus Prosthetics: Two highly advanced synthetic arms built
-        to output ludicrous amounts of strength. Barely legal on the free market.
-        Coming with a safety mode for general use during daily life, and of course
-        the Taurus switch which maximises its strength and grip to inhuman levels.
-        It is the ideal choice for anyone wishing to have a little extra to defend
-        themselves or just use to their advantage.'
-      _statEffects:
-      - index: 2
-        valueToAdd: 5
-    - _answerTxt: 'Adrenal Hormone Enhancer: A synthetic implant that enhances your
-        bodies hormones, which in turn enhances your charisma and intelligence. Used
-        by those who wish to enhance themselves by any means available to gain the
-        upperhand in business deals.'
-      _statEffects:
-      - index: 3
-        valueToAdd: 5
-  - _questionName: "Everything is black and you hear people whispering but you\u2019re
-      not sure what about. You notice your hands are bound behind your back. You begin
-      to analyse what is happening, listening in closely trying to decipher the muffled
-      conversation. As your eyes regain focus you notice you are seated in front of
-      a rather antique oakwood desk. A broadly built man greets you behind the desk,
-      his face wrinkled with age and covered in gruesome scars. You look to your sides
-      to discover to giant men with multiple augmentations in uniforms. He spends
-      an hour explaining that you have been held accountable for the debts of your
-      roommate that has skipped town. Make a choice:"
+  - _questionName: "\u201CSorry I really don\u2019t feel like it\u201D \u201CI\u2019m
+      worried about you honey\u201D \u201CMeh, I\u2019m fine.\u201D Crimson snapped.
+      \u201CYou don\u2019t seem fine.\u201D \u201CI\u2019m fine ok. Please just leave
+      it.\u201D Crimson turned away. "
     _answers:
-    - _answerTxt: "Offer to be under his employ as a courier to wipe out the debt:
-        Sure you could be given a dangerous job but at least you\u2019ll get paid
-        more than you could ever earn in a year. Money is always a good motivator."
+    - _answerTxt: " \u201CYou know if you\u2019re having problems, we could find someone
+        for you to talk to\u201D "
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - _answerTxt: "Offer to give him valuable information in exchange for clearing
-        the debts: You\u2019re pretty sure all they care about is money, and if you
-        can appeal to his sense of business perhaps he can see the profit within your
-        proposition instead of bloodshed."
+    - _answerTxt: "\u201CYou just carry on in denial then\u201D she snapped."
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - _answerTxt: "Offer to bring back your roommate personally to force him into
-        taking responsibility for his debts: He left you high and dry and forced you
-        to take the fall, you don\u2019t owe him a thing. You\u2019ll happily bring
-        him in, dead or alive."
-      _statEffects:
-      - index: 2
-        valueToAdd: 5
-    - _answerTxt: Sell your roommate out and give his last whereabouts, or perhaps
-        lure him out for your new friends, so that you are no longer accountable.
-        This man obviously has power throughout the underground of Haven. You want
-        to get on his good side.
-      _statEffects:
-      - index: 3
-        valueToAdd: 5
-  - _questionName: "On your way home to your apartment you decide to take a shortcut
-      through the neon lit slums. As you\u2019re treading through an area filled with
-      broken pipelines and the putrid stench of sewage, you spot the way out through
-      a dark dainty alley, only to be greeted by a group of heavily augmented hoodlums.
-      Their leader is pointing a rather large firearm in your direction, demanding
-      you hand over your belongings. Make a choice: "
+  - _questionName: "\u201CI saw John today\u201D Crimson said changing the topic again.
+      \u201CYeah, how is he doing?\u201D \u201CNot good. He broke up with Tegan\u201D
+      \u201COh, that sucks.\u201D \u201CIndeed. I wanted to help him but I didn\u2019t
+      know what to say. You know me, not very good with people.\u201D Crimson sighed.
+      \u201CI don\u2019t know why you always say that? You\u2019re great with people\u201D
+      \u201CHa\u201D Crimson shook his head and gazed disbelievingly at Meg. \u201CDon\u2019t
+      glare at me like that, it\u2019s true\u201D \u201CWhatever\u201D Crimson shrugged
+      Meg wished she knew how to comfort Crimson better. She could see he was struggling,
+      but he always kept her at a distance, not letting her know what was going on."
     _answers:
-    - _answerTxt: 'Turn around and get the fuck outta there: Look these guys don''t
-        seem the type to just leave you alone once they''ve gotten what they want,
-        and frankly you don''t wanna find out. Even an idiot knows when to split.'
+    - _answerTxt: "\u201CYou\u2019re the kindest person I know. That\u2019s why I
+        love you so much\u201D"
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - _answerTxt: "Hand over your goods and notify your buddies via neural link: There\u2019s
-        no reason these assholes should get your shit. You don't live in Haven long
-        without carrying some heat on you. Only yours comes in the form of tech rather
-        than firepower. "
+    - _answerTxt: "\u201CIf only you could stop feeling sorry for yourself all the
+        time, you could achieve so much.\u201D"
       _statEffects:
       - index: 1
         valueToAdd: 5
-    - _answerTxt: "Threaten them and tell them to get the hell out of here before
-        you call your friends: Last you checked this area was Sapper territory and
-        you don\u2019t see any any blue skulls on their hoodies. Which means they
-        are are poaching on turf that isn\u2019t theirs."
-      _statEffects:
-      - index: 2
-        valueToAdd: 5
-    - _answerTxt: "Hand over your belongings: Look at it this way, you could fight
-        back, but let\u2019s be honest, three against one, the scales aren't exactly
-        in your favour and one fuckup means they'll be taking more than your wallet."
-      _statEffects:
-      - index: 3
-        valueToAdd: 5
-  - _questionName: "Recently you\u2019ve noticed your paycheck has been becoming a
-      lot lighter as the weeks go by and find out that your boss has been embezzling
-      your pay and most likely your coworkers as well. Letting this continue without
-      intervention could prove detrimental to your current life in haven. Make a choice:"
+  - _questionName: "Crimson stared at the floor and didn\u2019t reply \u201CWell I\u2019m
+      going out to have a drink with my friends from uni. You stay here if you want\u201D
+      \u201CI will\u201D Meg: Grabs her jacket and goes out the front door. Crimson
+      sat alone on the sofa "
     _answers:
-    - _answerTxt: "If you\u2019re getting cheated there's no reason to stick around.
-        Resign from your employment because sooner or later your coworkers are going
-        to find out and you don't really want to be around when shit goes down."
+    - _answerTxt: "\u201CI can get through this. I\u2019m not a bad person. I\u2019m
+        just having a hard time. As long as I don\u2019t give up things will get better\u201D"
       _statEffects:
       - index: 0
         valueToAdd: 5
-    - _answerTxt: "Blackmail your boss into cutting you in onto his deal. Business
-        is business, good or bad it's all the same. You\u2019re willing to let it
-        continue with a little more benefits to keep you on the less talkative side."
+    - _answerTxt: "\u201CFuck this shit. I don\u2019t know why I even bother. Nothing
+        changes. Things just go from bad to worse. They\u2019re better off without
+        me anyway.\u201D"
       _statEffects:
       - index: 1
-        valueToAdd: 5
-    - _answerTxt: "This prick has been siphoning you credits like it's a bloody gas
-        station, take it up with him personally and show him how you feel with a little
-        \u201Cphysical encouragement\u201D."
-      _statEffects:
-      - index: 2
-        valueToAdd: 5
-    - _answerTxt: Inform your coworkers about your findings. Inspire them to form
-        a workers union and initiate a confrontation. Whatever happens next to your
-        boss is simply collateral and unimportant.
-      _statEffects:
-      - index: 3
-        valueToAdd: 5
-  - _questionName: 'An associate sends you a message warning of an impending police
-      raid at your place of work. He says you have a few hours to get out of there.
-      Make a choice:'
-    _answers:
-    - _answerTxt: "Climb out the fire escape of your office building and take off
-        along the rooftops. If the cops engage you up there, return fire if needed:
-        They\u2019re not stopping you."
-      _statEffects:
-      - index: 0
-        valueToAdd: 5
-    - _answerTxt: "Use your business contacts to discover the officer in charge of
-        the raid. Threaten to blackmail him unless he calls off the raid and investigation:
-        You have dirt on everyone and you\u2019re not going to let the cops stop your
-        profitable information trafficking."
-      _statEffects:
-      - index: 1
-        valueToAdd: 5
-    - _answerTxt: "Find a strategic location to defend and prepare for a fight: There
-        is no way you\u2019re letting the cops take you down. Besides you have way
-        more firepower than they do."
-      _statEffects:
-      - index: 2
-        valueToAdd: 5
-    - _answerTxt: "Wait and greet the police cordially and ask to speak in private
-        with the officer in charge. Bribe him to look the other way and drop the investigation:
-        Most cops in this town are corrupt, they don\u2019t get paid enough to put
-        up a fight and will gladly take the bribe."
-      _statEffects:
-      - index: 3
-        valueToAdd: 5
-  - _questionName: 'A business contact has some precious data they need delivered.
-      It is essential the package arrives safe and secure without any prying eyes
-      getting a look at the data. You have agreed to deliver the data, how do you
-      go about this? Make a choice:'
-    _answers:
-    - _answerTxt: 'You take the data disk and transfer its contents to a nanobot you
-        inject under the surface of your skin: You will deliver it in person, traveling
-        by any route available to shake off pursuers. Alleyways, rooftops, sewers,
-        subways etc.'
-      _statEffects:
-      - index: 0
-        valueToAdd: 5
-    - _answerTxt: 'You encrypt the data and transfer it through a series of private
-        servers using hidden back doors: These servers are not accessible by police
-        data warrants, or most hackers for that matter.'
-      _statEffects:
-      - index: 1
-        valueToAdd: 5
-    - _answerTxt: "You take the data disk and speed off in your armoured car: You
-        will travel at top speed, ploughing through roadblocks or anything else that
-        gets in your way. You don\u2019t care how much mayhem you cause along the
-        way, as long as the job gets done."
-      _statEffects:
-      - index: 2
-        valueToAdd: 5
-    - _answerTxt: "You\u2019re not putting your neck on the line for a lousy smuggling
-        job, still you want the money. So you take the job and sub-contract out to
-        some cheap thugs to do the dangerous parts for you: If they get caught, not
-        your problem. You\u2019ve made enough profit from the up-front payment to
-        bribe anyone who investigates the aftermath of any screw-ups."
-      _statEffects:
-      - index: 3
-        valueToAdd: 5
-  - _questionName: "You\u2019ve heard rumours for a few months now about a rival organisation
-      trying to move in on your turf. Today you receive a tip off stating they are
-      planning a direct assault on the HQ building where you work. Make a choice:"
-    _answers:
-    - _answerTxt: "Get the hell out of town: You don\u2019t need to risk surviving
-        a gang war. Pack a light backpack of belongings and run like hell. You know
-        these streets like the back of your hand, it\u2019s unlikely anyone could
-        catch you during your escape."
-      _statEffects:
-      - index: 0
-        valueToAdd: 5
-    - _answerTxt: 'Gather more intel about your rivals before making a choice: Find
-        out how much manpower and finances they have. If it looks like they have more
-        resources, offer to start working for them instead. If they have less resources,
-        blackmail their leader.'
-      _statEffects:
-      - index: 1
-        valueToAdd: 5
-    - _answerTxt: "Gather your allies and prepare to meet them head on: If there\u2019s
-        one thing you know how to do well, it\u2019s war. Your HQ building is practically
-        a fortress and you have a bigger arsenal of weapons than any other gang in
-        the city. Let them come!"
-      _statEffects:
-      - index: 2
-        valueToAdd: 5
-    - _answerTxt: 'Slink out of town quietly: You know better than to take these guys
-        head on. You can transfer all your financial assets remotely anyway, so no
-        real loss. You leave this shit hole town behind and move on to the next one.'
-      _statEffects:
-      - index: 3
-        valueToAdd: 5
-  - _questionName: 'While walking home from work, you come across what looks like
-      a lone gang member in your territory. You recognize his colours as belonging
-      to gang from a nearby district. He looks lost and anxious, maybe he stumbled
-      into the wrong territory by accident. As you pass by he calls out to you asking
-      for help with directions. Make a choice:'
-    _answers:
-    - _answerTxt: 'Give him directions back to the city centre: You know all the safest
-        back streets where he can slink through un-noticed by other gangs or corrupt
-        cops.'
-      _statEffects:
-      - index: 0
-        valueToAdd: 5
-    - _answerTxt: "Find out what he knows and squeeze him for information: You\u2019ll
-        give him directions, providing he can give you some useful information."
-      _statEffects:
-      - index: 1
-        valueToAdd: 5
-    - _answerTxt: "Pull out your gun and tell him to hand over everything he\u2019s
-        got: This guy doesn\u2019t get to wander into your territory and get away
-        with it."
-      _statEffects:
-      - index: 2
-        valueToAdd: 5
-    - _answerTxt: "Ignore him and continue walking: You can\u2019t been seen associating
-        with a rival gang (even if you do have secret dealings with them on the side)."
-      _statEffects:
-      - index: 3
-        valueToAdd: 5
-  - _questionName: "Business is going well. Your savings have grown nicely and it\u2019s
-      time for another shopping trip to Valen-Corp to purchase a new upgrade. Make
-      a choice:"
-    _answers:
-    - _answerTxt: 'Wrist mounted grappling hooks: They help you scale tall buildings
-        rapidly and swing from building to building. They also double as a handy harpoon
-        if anyone tries to mess with you.'
-      _statEffects:
-      - index: 0
-        valueToAdd: 5
-    - _answerTxt: 'Neural data safe: Information is your currency, and you need to
-        keep it well guarded from hackers and the authorities. A high capacity solid
-        state storage chip and encrypted wireless transmitters embedded in your head.
-        Only you can access it via your neural authorization link. The ultimate in
-        unhackable storage tech.'
-      _statEffects:
-      - index: 1
-        valueToAdd: 5
-    - _answerTxt: 'The Kill-O-Matic 9000: The ultimate assault rifle. Well, rifle
-        is perhaps understating things. This fully automatic weapon fire caseless
-        20mm explosive rounds at over 200 RPM. Anti-tank cannon is probably a better
-        description.'
-      _statEffects:
-      - index: 2
-        valueToAdd: 5
-    - _answerTxt: 'Optic camouflage projector: When things get hectic, you switch
-        this sucker on and it projects a light-bending field around you that renders
-        you completely invisible. Useful for sneaking in or out of tricky situations.'
-      _statEffects:
-      - index: 3
         valueToAdd: 5
   _questionText: {fileID: 1359905935}
   _questionNumberText: {fileID: 1943460920}
@@ -2346,7 +2413,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: b51bc8eb5e0ca9f4dbb5fdc3ef887639, type: 3}
+  m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
